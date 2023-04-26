@@ -1,0 +1,121 @@
+/* Set up styles for the right and left arrow buttons */
+
+.right-arrow,
+.left-arrow {
+  cursor: pointer;
+  background: transparent;
+  outline: none;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #FF2625;
+  font-size: 25px;
+  border-radius: 50%;
+  position: absolute;
+  bottom: -20px;
+  right: 80px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+  width: 40px;
+  height: 40px;
+}
+
+.right-arrow {
+  right: 140px;
+}
+
+.right-arrow:hover,
+.left-arrow:hover {
+  transform: scale(1.2, 1.2);
+}
+
+/* Set up styles for the scrolling menu wrapper */
+
+.react-horizontal-scrolling-menu--wrapper {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Set up styles for the detail image */
+
+.detail-image {
+  width: 729px;
+  height: 742px;
+}
+
+/* Set up styles for the hero banner image */
+
+.hero-banner-img {
+  position: absolute;
+  right: 40px;
+  top: 0px;
+  width: 700px;
+  height: 900px;
+  margin-top: -250px;
+  border-top: 4px solid #FF2625;
+  border-bottom-left-radius: 20px;
+}
+
+/* Set up styles for the exercise cards */
+
+.exercise-card {
+  width: 400px;
+  height: 445px;
+  background: #fff;
+  border-top: 4px solid #FF2625;
+  border-bottom-left-radius: 20px;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  padding-bottom: 10px;
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+.exercise-card img {
+  height: 326px;
+}
+
+/* Set up styles for the body part cards */
+
+.bodyPart-card {
+  transform: scale(1, 1);
+  transition: 0.3s all ease-in-out;
+}
+
+.exercise-card:hover,
+.bodyPart-card:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* Set up styles for the search button */
+
+.search-btn:hover {
+  color: #FF2625 !important;
+  border: 1px solid #FF2625 !important;
+}
+
+/* Set up styles for the exercise video */
+
+.exercise-video {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  width: 387px;
+  height: 381px;
+  text-decoration: none;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+
+/* Set up media queries for responsive design */
+
